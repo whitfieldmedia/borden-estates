@@ -75,9 +75,17 @@ class App extends React.Component {
       <div className="app">
         <div className="navbar">
           <div className="nav-row">
-            <h3 className="nav-header" onClick={this.homeScroll}> Borden Estates </h3>
+            <h3 className="nav-header" onClick={this.homeScroll}> <strong>B</strong>ORDEN <br/> <strong>E</strong>STATES </h3>
+            <div className="dropdown-content-big">
+                <div className="nav-link border-left" onClick={this.lotsScroll}> Lots </div>
+                <div className="nav-link" onClick={this.designScroll}> House Designs </div>
+                <div className="nav-link" onClick={this.financeScroll}>Financing</div>
+                <div className="nav-link" onClick={this.covenantsScroll}>Covenants</div>
+                <div className="nav-link no-border" onClick={this.contactScroll}>Contact</div>
+            </div>
             <span className="toggle-button" onClick={this.toggleMenu}> {this.state.isToggled ? <i class="material-icons">close</i> : <i class="material-icons md-36">menu</i> } </span>
           </div>
+
           {this.state.isToggled 
           ?<div className="dropdown-content">
             <div className="nav-link" onClick={this.lotsScroll}> Lots </div>

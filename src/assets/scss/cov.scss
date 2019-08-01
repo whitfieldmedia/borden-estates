@@ -14,11 +14,17 @@
 
 .cov-container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: column;
+    max-width: 1000px;
+    min-width: 320px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 2px 1px #4a4a4a;
+    padding: 30px 2px;
 }
 
 .covenants {
-    width: 45%;
+    width: 94%;
     margin: 10px auto;
     font-family: $sans;
     font-size: 20px;

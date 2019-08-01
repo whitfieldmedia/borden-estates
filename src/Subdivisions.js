@@ -22,8 +22,8 @@ class Subdivisions extends React.Component {
                 <h1 className="sub-header"> Available Lots </h1>
                 <h2 className="sub-header2"> Properties are located 2 miles south of Perry Rd. on Highway 51 in Grenada, Ms. </h2>
                 <div className="pricing-container">
-                    <h2 className="pricing-header"> Lots 1-64 <br/> $25,000 - $28,000  </h2>
-                    <h2 className="pricing-header"> Lots 65-101 <br/> $28,000 - $40,000 </h2>
+                    <h2 className="pricing-header"> Lots 1-64 $25,000 - $28,000  </h2>
+                    <h2 className="pricing-header"> Lots 65-101 $28,000 - $40,000 </h2>
                 </div>
                 <div className="image-holder">
                     <Gallery images={this.state.images} showLightboxThumbnails={true} />
