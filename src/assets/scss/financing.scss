@@ -1,0 +1,78 @@
+@import 'assets';
+
+#finance-page {
+    padding: 75px 0;
+}
+
+.financing-header {
+    text-align: center;
+    font-family: $serif;
+    color: $black;
+    font-size: 35px;
+    font-weight: 500;
+    width: 80%;
+    margin: 0 auto 50px auto;
+    min-width: 300px;
+}
+
+.bank-container {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap; 
+    justify-content: space-evenly;
+    align-content: flex-start;
+}
+
+.bank-link {
+    text-decoration: none;
+    height: auto;
+    width: auto;
+    img {
+        height: auto;
+        width: 250px;
+        display: block;
+    }
+}
+
+.closing-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+.closing-img {
+    height: 300px;
+    width: auto;
+    display: block;
+    border-radius: 50%;
+}
+.closing-par {
+    font-family: $mono;
+    font-size: 25px;
+    font-weight: 400;
+    color: $black;
+    width: auto;
+    max-width: 90%;
+    text-align: center;
+}
+.closing-link {
+    font-family: $mono;
+    font-size: 25px;
+    font-weight: 400;
+    color: $black;
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 850px) {
+    .bank-container {
+        flex-flow: column;
+        justify-content: center;
+        justify-items: center;
+        align-content: center;
+        align-items: center;
+    }
+}

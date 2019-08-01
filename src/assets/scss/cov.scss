@@ -1,0 +1,38 @@
+@import 'assets';
+
+#covenants-page {
+    padding: 75px 0;
+}
+
+.cov-header {
+    text-align: center;
+    font-family: $serif;
+    color: $black;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.cov-container {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.covenants {
+    width: 45%;
+    margin: 10px auto;
+    font-family: $sans;
+    font-size: 20px;
+    color: #4a4a4a;
+}
+
+@media only screen and (max-width: 800px) {
+    .cov-container {
+        display: flex;
+        flex-flow: column;
+    }
+    .covenants {
+        width: 80%;
+        min-width: 300px;
+        margin: 10px auto;
+    }
+}
