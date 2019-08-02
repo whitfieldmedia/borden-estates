@@ -2,6 +2,8 @@
   "name": "borden-estates",
   "version": "0.1.0",
   "private": true,
+  "protocol": "https",
+  "webpackProtocol": "--https",
   "dependencies": {
     "node-sass": "^4.12.0",
     "react": "^16.8.6",
