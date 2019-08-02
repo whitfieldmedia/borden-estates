@@ -6,7 +6,7 @@
     font-size: 55px;
     text-align: right;
     position: absolute;
-    top: 73%;
+    top: 70%;
     right: 25px;
     color: $red;
     width: 100%;
@@ -46,9 +46,57 @@
     align-items: center;
     background: url('../images/house.png');
     filter: brightness(60%);
-
+    background-position: center center;
 }
+@media only screen and (max-width: 600px) {
+    .header {
+        font-size: 50px;
 
+        strong {
+            font-size: 60px;
+        }
+    }
+}
+@media only screen and (max-width: 550px) {
+    .header {
+        font-size: 45px;
+        strong {
+            font-size: 55px;
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .header {
+        font-size: 40px;
+        strong {
+            font-size: 50px;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .header {
+        font-size: 35px;
+        strong {
+            font-size: 45px;
+        }
+    }
+}
+@media only screen and (max-width: 400px) {
+    .header {
+        font-size: 30px;
+        strong {
+            font-size: 45px;
+        }
+    }
+}
+@media only screen and (max-width: 350px) {
+    .header {
+        font-size: 25px;
+        strong {
+            font-size: 40px;
+        }
+    }
+}
 
 @keyframes fadeIn {
     0% {

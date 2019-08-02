@@ -83,7 +83,7 @@ class App extends React.Component {
                 <div className="nav-link" onClick={this.covenantsScroll}>Covenants</div>
                 <div className="nav-link no-border" onClick={this.contactScroll}>Contact</div>
             </div>
-            <span className="toggle-button" onClick={this.toggleMenu}> {this.state.isToggled ? <i class="material-icons">close</i> : <i class="material-icons md-36">menu</i> } </span>
+            <span className="toggle-button" onClick={this.toggleMenu}> {this.state.isToggled ? <i class="material-icons md-36">close</i> : <i class="material-icons md-36">menu</i> } </span>
           </div>
 
           {this.state.isToggled 

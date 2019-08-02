@@ -15,11 +15,10 @@
 .cov-container {
     display: flex;
     flex-flow: column;
-    max-width: 1000px;
+    max-width: 1200px;
     min-width: 320px;
     width: 80%;
     margin: 0 auto;
-    box-shadow: 0px 0px 2px 1px #4a4a4a;
     padding: 30px 2px;
 }
 
@@ -27,7 +26,7 @@
     width: 94%;
     margin: 10px auto;
     font-family: $sans;
-    font-size: 20px;
+    font-size: 16px;
     color: #4a4a4a;
 }
 
@@ -37,7 +36,7 @@
         flex-flow: column;
     }
     .covenants {
-        width: 80%;
+        width: 100%;
         min-width: 300px;
         margin: 10px auto;
     }
