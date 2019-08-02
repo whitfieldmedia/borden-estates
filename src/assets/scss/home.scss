@@ -49,9 +49,12 @@
     background-position: center center;
 }
 @media only screen and (max-width: 600px) {
+    .top-container {
+        filter: brightness(30%);
+    }
     .header {
         font-size: 50px;
-
+        text-shadow: none;
         strong {
             font-size: 60px;
         }
