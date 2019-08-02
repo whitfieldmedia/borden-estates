@@ -7,7 +7,7 @@ class Footer extends React.Component {
             <div className="footer">
                 <div className="footer-row">
                     <a className="footer-link" href="tel:6628091975"> 662.809.1975 </a>
-                    <a className="footer-link" href="mailto:charlie@cwhitfieldmedia.com"> charlie@cwhitfieldmedia.com </a>
+                    <a className="footer-link" href="mailto:charlie@bordenestates.com"> charlie@bordenestates.com </a>
                     <p className="footer-link2"> Highway 51 South Grenada, Ms </p>
                 </div>
 
