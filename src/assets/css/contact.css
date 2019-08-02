@@ -1,26 +1,36 @@
 @import url("https://use.typekit.net/whu8esn.css");
-@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Playfair+Display:400,400i,700,700i&display=swap");
 #contact-page {
-  padding: 75px 0;
+  padding: 75px 0 0 0;
 }
 
 .contact-header {
   text-align: center;
-  font-family: "Playfair Display", serif;
-  color: #1A1A1C;
-  font-size: 35px;
+  font-family: yrsa, serif;
+  color: #e30000;
+  font-size: 40px;
   font-weight: 500;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.contact-header-underline {
+  width: 100px;
+  height: 5px;
+  background: #111111;
+  margin: 0 auto 20px auto;
+  padding-top: 0;
+  border-radius: 10px;
 }
 
 .contact-par {
-  font-family: "Oxygen", sans-serif;
-  color: #4a4a4a;
-  font-size: 22px;
+  font-family: myriad-pro, sans-serif;
+  color: #2e2e2e;
+  font-size: 20px;
   width: 80%;
   margin: 0 auto;
+  text-align: center;
   min-width: 300px;
   font-weight: 400;
-  text-align: left;
   margin-bottom: 30px;
 }
 
@@ -48,7 +58,7 @@
   padding: 10px 0;
   display: flex;
   flex-flow: row wrap;
-  border-bottom: 1px solid #1A1A1C;
+  border-bottom: 1px solid #111111;
 }
 
 .button-container {
@@ -61,11 +71,11 @@
   border: none;
   height: 30px;
   font-size: 15px;
-  color: #1A1A1C;
+  color: #111111;
 }
 
 input::placeholder {
-  color: #1A1A1C;
+  color: #111111;
 }
 
 input:focus {
@@ -81,7 +91,7 @@ input:focus {
   margin-bottom: 0;
   height: 20px;
   width: auto;
-  color: #1A1A1C;
+  color: #111111;
 }
 
 .message_row {
@@ -92,7 +102,7 @@ input:focus {
   padding: 10px 0;
   display: flex;
   flex-flow: row;
-  border-bottom: 1px solid #1A1A1C;
+  border-bottom: 1px solid #111111;
 }
 
 .message_input {
@@ -100,7 +110,7 @@ input:focus {
   height: 30px;
   font-size: 15px;
   border: none;
-  color: #1A1A1C;
+  color: #111111;
 }
 
 #form-button {
@@ -109,9 +119,10 @@ input:focus {
   width: 120px;
   font-size: 15px;
   color: #f5f7f6;
-  background: #1A1A1C;
   border: 1px solid #f5f7f6;
   text-align: center;
+  border-radius: 15px;
+  background: #30302F;
 }
 
 #form-button:hover {

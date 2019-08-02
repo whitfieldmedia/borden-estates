@@ -1,5 +1,4 @@
 @import url("https://use.typekit.net/whu8esn.css");
-@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Playfair+Display:400,400i,700,700i&display=swap");
 .header {
   font-family: ltc-bodoni-175, serif;
   font-weight: bold;
@@ -28,7 +27,7 @@
 }
 
 .home-container {
-  padding: 0 0 50px 0;
+  padding: 0 0 0 0;
   margin: 0;
   z-index: 100;
 }

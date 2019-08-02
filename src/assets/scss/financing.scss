@@ -1,18 +1,35 @@
 @import 'assets';
 
 #finance-page {
-    padding: 75px 0;
+    padding: 75px 0 0 0;
 }
 
 .financing-header {
     text-align: center;
     font-family: $serif;
-    color: $black;
-    font-size: 35px;
+    color: $red;
+    font-size: 40px;
     font-weight: 500;
     width: 80%;
-    margin: 0 auto 50px auto;
+    margin: 0 auto;
+    padding-bottom: 10px;
     min-width: 300px;
+}
+.financing-header2 {
+    font-family: $sans;
+    font-size: 25px;
+    color: $black2;
+    text-align: center;
+    font-weight: 400;
+
+}
+.financing-header-underline {
+    width: 100px; 
+    height: 5px; 
+    margin: 0 auto 20px auto;
+    padding-top: 0;
+    background: $black;
+    border-radius: 10px;
 }
 
 .bank-container {
@@ -27,6 +44,7 @@
     text-decoration: none;
     height: auto;
     width: auto;
+    margin: 20px auto;
     img {
         height: auto;
         width: 250px;
@@ -34,45 +52,66 @@
     }
 }
 
+.bank-link:hover {
+    img {
+        filter: brightness(95%);
+    }
+}
+
 .closing-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    align-content: flex-start;
+    align-items: flex-start;
+    padding-top: 30px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+.closing-column {
     display: flex;
     flex-flow: column;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
-    padding-top: 30px;
 }
 .closing-img {
-    height: 300px;
+    height: 200px;
     width: auto;
     display: block;
     border-radius: 50%;
 }
 .closing-par {
-    font-family: $mono;
+    font-family: $sans;
     font-size: 25px;
     font-weight: 400;
-    color: $black;
+    color: $black2;
     width: auto;
-    max-width: 90%;
     text-align: center;
 }
 .closing-link {
-    font-family: $mono;
+    font-family: $sans;
     font-size: 25px;
     font-weight: 400;
-    color: $black;
+    color: $black2;
     text-decoration: none;
 }
 
 
-@media only screen and (max-width: 850px) {
-    .bank-container {
+@media only screen and (max-width: 650px) {
+    .closing-container {
         flex-flow: column;
         justify-content: center;
         justify-items: center;
         align-content: center;
         align-items: center;
+        margin-top: 0;
+        padding-top: 0;
+    }
+    .closing-img {
+        margin-top: 30px;
     }
 }

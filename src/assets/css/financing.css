@@ -1,18 +1,35 @@
 @import url("https://use.typekit.net/whu8esn.css");
-@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Playfair+Display:400,400i,700,700i&display=swap");
 #finance-page {
-  padding: 75px 0;
+  padding: 75px 0 0 0;
 }
 
 .financing-header {
   text-align: center;
-  font-family: "Playfair Display", serif;
-  color: #1A1A1C;
-  font-size: 35px;
+  font-family: yrsa, serif;
+  color: #e30000;
+  font-size: 40px;
   font-weight: 500;
   width: 80%;
-  margin: 0 auto 50px auto;
+  margin: 0 auto;
+  padding-bottom: 10px;
   min-width: 300px;
+}
+
+.financing-header2 {
+  font-family: myriad-pro, sans-serif;
+  font-size: 25px;
+  color: #2e2e2e;
+  text-align: center;
+  font-weight: 400;
+}
+
+.financing-header-underline {
+  width: 100px;
+  height: 5px;
+  margin: 0 auto 20px auto;
+  padding-top: 0;
+  background: #111111;
+  border-radius: 10px;
 }
 
 .bank-container {
@@ -27,6 +44,7 @@
   text-decoration: none;
   height: auto;
   width: auto;
+  margin: 20px auto;
 }
 .bank-link img {
   height: auto;
@@ -34,48 +52,69 @@
   display: block;
 }
 
+.bank-link:hover img {
+  filter: brightness(95%);
+}
+
 .closing-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+  justify-items: space-evenly;
+  align-content: flex-start;
+  align-items: flex-start;
+  padding-top: 30px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+.closing-column {
   display: flex;
   flex-flow: column;
   justify-content: center;
   justify-items: center;
   align-content: center;
   align-items: center;
-  padding-top: 30px;
 }
 
 .closing-img {
-  height: 300px;
+  height: 200px;
   width: auto;
   display: block;
   border-radius: 50%;
 }
 
 .closing-par {
-  font-family: source-code-pro, monospace;
+  font-family: myriad-pro, sans-serif;
   font-size: 25px;
   font-weight: 400;
-  color: #1A1A1C;
+  color: #2e2e2e;
   width: auto;
-  max-width: 90%;
   text-align: center;
 }
 
 .closing-link {
-  font-family: source-code-pro, monospace;
+  font-family: myriad-pro, sans-serif;
   font-size: 25px;
   font-weight: 400;
-  color: #1A1A1C;
+  color: #2e2e2e;
   text-decoration: none;
 }
 
-@media only screen and (max-width: 850px) {
-  .bank-container {
+@media only screen and (max-width: 650px) {
+  .closing-container {
     flex-flow: column;
     justify-content: center;
     justify-items: center;
     align-content: center;
     align-items: center;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .closing-img {
+    margin-top: 30px;
   }
 }
 

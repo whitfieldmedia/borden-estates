@@ -1,7 +1,8 @@
 @import 'assets';
 
 #sub-page {
-    padding: 50px 0 75px 0;
+    padding: 50px 0 0 0;
+    border-top: 3px solid $red;
 }
 
 .land-img {
@@ -25,18 +26,29 @@
     text-align: center;
     font-size: 40px;
     font-family: $serif;
-    font-weight: 300;
-    color: $black;
+    font-weight: 500;
+    color: $red;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.sub-header-underline {
+    width: 100px; 
+    height: 5px;
+    background: $black;
+    margin: 0 auto 20px auto;
+    padding-top: 0;
+    border-radius: 10px;
 }
 
 .sub-header2 {
     text-align: center;
     font-size: 25px;
     font-weight: 400;
-    font-family: $slab;
+    font-family: $sans;
     width: 80%;
     min-width: 300px;
     margin: 0 auto 15px auto;
+    color: $black2;
 }
 
 .pricing-container {
@@ -53,6 +65,7 @@
     font-weight: 400;
     margin: 0;
     padding: 10px 0;
+    color: $black2;
 }
 
 @media only screen and (max-width: 850px) {

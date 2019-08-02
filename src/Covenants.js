@@ -7,6 +7,7 @@ class Covenants extends React.Component {
             <div id="covenants-page">
                 <div className="cov-container">
                 <h1 className="cov-header"> Protective Covenants </h1>
+                <div className="cov-header-underline"></div>
                     <p className="covenants">
                         No mobile homes or manufactured homes are allowed on the subject property.
                     </p>

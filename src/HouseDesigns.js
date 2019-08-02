@@ -10,6 +10,7 @@ class HouseDesigns extends React.Component {
         return (
             <div id="designPage">
                 <h1 className="designHeader"> House Designs </h1>
+                <div className="design-header-underline"></div>
                 <div className="house-design-wrapper">
                     <Design1 />
                     <Design2 />

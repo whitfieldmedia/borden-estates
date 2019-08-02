@@ -1,15 +1,25 @@
 @import 'assets';
 
 #designPage {
-    padding: 75px 0;
+    padding: 75px 0 0 0;
 }
 
 .designHeader {
     text-align: center;
     font-size: 40px;
     font-family: $serif;
-    font-weight: 300;
-    color: $black;
+    font-weight: 500;
+    color: $red;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+}
+.design-header-underline {
+    width: 100px;
+    height: 5px; 
+    margin: 0 auto 20px auto;
+    padding-top: 0;
+    background: $black;
+    border-radius: 10px;
 }
 
 .house-design-wrapper {

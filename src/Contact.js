@@ -6,6 +6,7 @@ class Contact extends React.Component {
         return (
             <div id="contact-page">
                 <h1 className="contact-header"> Contact Us! </h1>
+                <div className="contact-header-underline"></div>
                 <p className="contact-par"> Give us a call at 662.809.1975 or use the form below and we will get back to you as soon as possible. </p>
                 <form id="formContainer" action="https://formspree.io/charlie@cwhitfieldmedia.com" method="POST">
                     <div className="form-grid">

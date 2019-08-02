@@ -5,6 +5,7 @@ import HouseDesigns from './HouseDesigns';
 import Covenants from './Covenants';
 import Financing from './Financing';
 import Contact from './Contact';
+import Footer from './Footer';
 import './assets/scss/app.scss';
 
 class App extends React.Component {
@@ -114,6 +115,7 @@ class App extends React.Component {
         <div id="contact-container">
           <Contact />
         </div>
+        <Footer />
       </div>
     )
   }

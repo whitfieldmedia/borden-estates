@@ -1,7 +1,7 @@
 @import url("https://use.typekit.net/whu8esn.css");
-@import url("https://fonts.googleapis.com/css?family=Oxygen:300,400,700|Playfair+Display:400,400i,700,700i&display=swap");
 #sub-page {
-  padding: 50px 0 75px 0;
+  padding: 50px 0 0 0;
+  border-top: 3px solid #e30000;
 }
 
 .land-img {
@@ -24,19 +24,31 @@
 .sub-header {
   text-align: center;
   font-size: 40px;
-  font-family: "Playfair Display", serif;
-  font-weight: 300;
-  color: #1A1A1C;
+  font-family: yrsa, serif;
+  font-weight: 500;
+  color: #e30000;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+}
+
+.sub-header-underline {
+  width: 100px;
+  height: 5px;
+  background: #111111;
+  margin: 0 auto 20px auto;
+  padding-top: 0;
+  border-radius: 10px;
 }
 
 .sub-header2 {
   text-align: center;
   font-size: 25px;
   font-weight: 400;
-  font-family: campaign-slab, serif;
+  font-family: myriad-pro, sans-serif;
   width: 80%;
   min-width: 300px;
   margin: 0 auto 15px auto;
+  color: #2e2e2e;
 }
 
 .pricing-container {
@@ -48,11 +60,12 @@
 
 .pricing-header {
   font-size: 25px;
-  font-family: "Oxygen", sans-serif;
+  font-family: myriad-pro, sans-serif;
   text-align: center;
   font-weight: 400;
   margin: 0;
   padding: 10px 0;
+  color: #2e2e2e;
 }
 
 @media only screen and (max-width: 850px) {

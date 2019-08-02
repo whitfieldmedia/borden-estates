@@ -1,26 +1,36 @@
 @import 'assets';
 
 #contact-page {
-    padding: 75px 0;
+    padding: 75px 0 0 0;
 }
 
 .contact-header {
     text-align: center;
     font-family: $serif;
-    color: $black;
-    font-size: 35px;
+    color: $red;
+    font-size: 40px;
     font-weight: 500;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.contact-header-underline {
+    width: 100px; 
+    height: 5px; 
+    background: $black;
+    margin: 0 auto 20px auto;
+    padding-top: 0;
+    border-radius: 10px;
 }
 
 .contact-par {
     font-family: $sans;
-    color: #4a4a4a;
-    font-size: 22px;
+    color: $black2;
+    font-size: 20px;
     width: 80%;
     margin: 0 auto;
+    text-align: center;
     min-width: 300px;
     font-weight: 400;
-    text-align: left;
     margin-bottom: 30px;
 }
 
@@ -107,9 +117,10 @@ input:focus {
     width: 120px;
     font-size: 15px;
     color: $white;
-    background: $black;
     border: 1px solid $white;
     text-align: center;
+    border-radius: 15px;
+    background: #30302F;
 }
 #form-button:hover {
     cursor: pointer;
