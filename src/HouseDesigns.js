@@ -2,7 +2,7 @@ import React from 'react';
 import Design1 from './House141';
 import Design2 from './House149';
 import Design3 from './House153';
-import Design4 from './House175';
+import Design4 from './House142';
 import './assets/scss/house-designs.scss';
 
 class HouseDesigns extends React.Component {
