@@ -1,6 +1,6 @@
 import React from 'react';
-import house from './assets/images/153/153-1076.jpg';
-import floorplan from './assets/images/153/153-floorplan.jpg';
+import house from './assets/images/575/575_house_plan.jpg';
+import floorplan from './assets/images/575/575_floor_plan.jpg';
 import Gallery from 'react-grid-gallery';
 
 const IMAGES = [
@@ -8,14 +8,14 @@ const IMAGES = [
     {src: `${floorplan}`},
 ]
 
-class House153 extends React.Component {
+class House5 extends React.Component {
     render() {
         return (
             <div className="house-container">
                 <div className="main-image">
                     <Gallery images={IMAGES} margin='0' />
                 </div>
-                <h1 className="house-header"> Model Home 153 </h1>
+                <h1 className="house-header"> Model Home 5 </h1>
                 <div className="detail-holder">
                     <div className="detail-row">
                         <p className="detail-header"> Bedrooms </p><p className="details"> 3 </p>
@@ -24,7 +24,7 @@ class House153 extends React.Component {
                         <p className="detail-header"> Bathrooms </p><p className="details"> 2 </p>
                     </div>                    
                     <div className="detail-row">
-                        <p className="detail-header"> Living Area </p><p className="details"> 1591 sqft </p>
+                        <p className="detail-header"> Living Area </p><p className="details"> 1,605 sqft </p>
                     </div>
                     <div className="detail-row">
                         <p className="detail-header"> Garage </p><p className="details"> 2 Car </p>
@@ -35,4 +35,4 @@ class House153 extends React.Component {
     }
 }
 
-export default House153;
+export default House5;

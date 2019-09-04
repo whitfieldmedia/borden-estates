@@ -1,6 +1,6 @@
 import React from 'react';
-import house from './assets/images/142/142-1180.jpg';
-import floorplan from './assets/images/142/142-1180_floorplan.jpg';
+import house from './assets/images/1354/1354-house-plan.jpg';
+import floorplan from './assets/images/1354/1354_house_floor_plan.jpg';
 import Gallery from 'react-grid-gallery';
 
 const IMAGES = [
@@ -8,31 +8,31 @@ const IMAGES = [
     {src: `${floorplan}`},
 ]
 
-class House142 extends React.Component {
+class House4 extends React.Component {
     render() {
         return (
             <div className="house-container">
                 <div className="main-image">
-                    <Gallery images={IMAGES} margin="0" />
+                    <Gallery images={IMAGES} margin='0' />
                 </div>
-                <h1 className="house-header"> Model Home 142 </h1>
+                <h1 className="house-header"> Model Home 4 </h1>
                 <div className="detail-holder">
-                <div className="detail-row">
+                    <div className="detail-row">
                         <p className="detail-header"> Bedrooms </p><p className="details"> 3 </p>
                     </div>
                     <div className="detail-row">
-                        <p className="detail-header"> Bathrooms </p><p className="details"> 2.5 </p>
+                        <p className="detail-header"> Bathrooms </p><p className="details"> 2 </p>
                     </div>                    
                     <div className="detail-row">
-                        <p className="detail-header"> Living Area </p><p className="details"> 2282 sqft </p>
+                        <p className="detail-header"> Living Area </p><p className="details"> 1,738 sqft </p>
                     </div>
                     <div className="detail-row">
-                        <p className="detail-header"> Garage </p><p className="details">  2 Car </p>
-                    </div>    
+                        <p className="detail-header"> Garage </p><p className="details"> 2 Car </p>
+                    </div>                                        
                 </div>
             </div>
         )
     }
 }
 
-export default House142;
+export default House4;
