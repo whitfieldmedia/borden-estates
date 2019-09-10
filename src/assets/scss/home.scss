@@ -44,9 +44,11 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    background: url('../images/house.png');
+    background: url('../images/brickHouse.png');
     filter: brightness(60%);
-    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left center;
 }
 @media only screen and (max-width: 600px) {
     .top-container {
