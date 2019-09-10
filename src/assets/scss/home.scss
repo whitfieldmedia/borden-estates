@@ -4,14 +4,13 @@
     font-family: $bodoni;
     font-weight: bold;
     font-size: 55px;
-    text-align: right;
+    text-align: center;
     position: absolute;
-    top: 70%;
-    right: 25px;
-    color: $red;
+    top: 100px;
+    color: $white;
     width: 100%;
     margin: 0 auto;
-    text-shadow: 1.5px 1.5px 2px $white, -1.5px -1.5px 2px $white;
+    text-shadow: 1.5px 1.5px 2px $black, -1.5px -1.5px 2px $black;
     animation-name: fadeIn;
     animation-duration: 1s;
     animation-iteration-count: 1;
@@ -34,7 +33,7 @@
 }
 .top-container {
     position: relative;
-    margin: 0;
+    margin: 50px 0 0 0;
     padding: 0;
     width: 100%;
     min-height: 80vh;
@@ -44,19 +43,18 @@
     justify-items: center;
     align-content: center;
     align-items: center;
-    background: url('../images/brickHouse.png');
-    filter: brightness(60%);
+    background: url('../images/brickHouseWide.png');
+    filter: brightness(100%);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: center bottom;
+}
+@media only screen and (max-width: 1000px) {
+
 }
 @media only screen and (max-width: 600px) {
-    .top-container {
-        filter: brightness(50%);
-    }
     .header {
         font-size: 50px;
-        text-shadow: none;
         strong {
             font-size: 60px;
         }
