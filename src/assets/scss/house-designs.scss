@@ -26,9 +26,12 @@
     display: flex;
     flex-flow: row wrap;
     height: auto;
-    justify-content: space-evenly;
-    justify-items: space-evenly;
-    width: 90%;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+    max-width: 1200px;
     min-width: 300px;
     margin: auto;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import house from './assets/images/1282/1282_house_plan.png';
-import floorplan from './assets/images/1282/1282_floor_plan.jpg';
+import floorplan from './assets/images/1282/1282_floor_plan.png';
 import Gallery from 'react-grid-gallery';
 
 const IMAGES = [

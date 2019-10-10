@@ -1,6 +1,6 @@
 import React from 'react';
-import house from './assets/images/1354/1354_house_plan.png';
-import floorplan from './assets/images/1354/1354_floor_plan.png';
+import house from './assets/images/523/523_house_plan.png';
+import floorplan from './assets/images/523/523_floor_plan.png';
 import Gallery from 'react-grid-gallery';
 
 const IMAGES = [
@@ -8,33 +8,34 @@ const IMAGES = [
     {src: `${floorplan}`},
 ]
 
-class House3 extends React.Component {
+class House5 extends React.Component {
     render() {
         return (
             <div className="house-container">
                 <div className="main-image">
-                    <Gallery images={IMAGES} margin='0' />
+                    <Gallery images={IMAGES} margin="0" />
                 </div>
-                <h1 className="house-header"> Model Home 3 </h1>
+                <h1 className="house-header"> Model Home 5 </h1>
                 <div className="detail-holder">
-                    <div className="detail-row">
+                <div className="detail-row">
                         <p className="detail-header"> Bedrooms </p><p className="details"> 3 </p>
                     </div>
                     <div className="detail-row">
                         <p className="detail-header"> Bathrooms </p><p className="details"> 2 </p>
                     </div>                    
                     <div className="detail-row">
-                        <p className="detail-header"> Living Area </p><p className="details"> 1,738 sqft </p>
+                        <p className="detail-header"> Living Area </p><p className="details"> 1,882 sqft </p>
                     </div>
                     <div className="detail-row">
-                        <p className="detail-header"> Garage </p><p className="details"> 2 Car </p>
-                    </div>                                        
+                        <p className="detail-header"> Garage </p><p className="details">  2 Car </p>
+                    </div>    
                 </div>
             </div>
         )
     }
 }
 
-export default House3;
+export default House5;
 
-//https://www.nelsondesigngroup.com/content/house-plan-1354-allisa
+
+// https://www.nelsondesigngroup.com/content/house-plan-523-fontenay-drive

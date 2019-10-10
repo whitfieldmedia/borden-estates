@@ -10,7 +10,7 @@
     color: $red;
     font-size: 40px;
     font-weight: 500;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     padding: 0;
 }
 .contact-header-underline {
@@ -20,6 +20,13 @@
     margin: 0 auto 20px auto;
     padding-top: 0;
     border-radius: 10px;
+}
+
+.contact-name {
+    font-family: $serif;
+    font-size: 25px;
+    color: $black2;
+    text-align: center;
 }
 
 .contact-par {
@@ -32,6 +39,26 @@
     min-width: 300px;
     font-weight: 400;
     margin-bottom: 30px;
+}
+.contact-link {
+    font-family: $sans;
+    color: $black2;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #2200CC;
+    line-height: 20px;
+    transition: all 0.3s ease;
+    i {
+        padding-right: 10px;
+    }
+}
+
+.contact-link:hover {
+    cursor: pointer;
+    font-size: 21px;
+    line-height: 20px;
+    text-decoration: underline;
 }
 
 #formContainer {

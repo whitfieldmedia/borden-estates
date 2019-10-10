@@ -9,7 +9,7 @@
   color: #e30000;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
   padding: 0;
 }
 
@@ -22,6 +22,13 @@
   border-radius: 10px;
 }
 
+.contact-name {
+  font-family: yrsa, serif;
+  font-size: 25px;
+  color: #2e2e2e;
+  text-align: center;
+}
+
 .contact-par {
   font-family: myriad-pro, sans-serif;
   color: #2e2e2e;
@@ -32,6 +39,27 @@
   min-width: 300px;
   font-weight: 400;
   margin-bottom: 30px;
+}
+
+.contact-link {
+  font-family: myriad-pro, sans-serif;
+  color: #2e2e2e;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #2200CC;
+  line-height: 20px;
+  transition: all 0.3s ease;
+}
+.contact-link i {
+  padding-right: 10px;
+}
+
+.contact-link:hover {
+  cursor: pointer;
+  font-size: 21px;
+  line-height: 20px;
+  text-decoration: underline;
 }
 
 #formContainer {
