@@ -1,11 +1,11 @@
 import React from 'react';
-import house from './assets/images/1282/1282_house_plan.png';
-import floorplan from './assets/images/1282/1282_floor_plan.jpg';
+import house from './assets/images/1341B/1341B_house_plan.jpg';
+import floorplan from './assets/images/1341B/1341B_floor_plan.jpg';
 import Gallery from 'react-grid-gallery';
 
 const IMAGES = [
     {src: `${house}`, thumbnail: `${house}`, thumbnailWidth: 331, thumbnailHeight: 180},
-    {src: `${floorplan}`},
+    {src: `${floorplan}`}
 ]
 
 class House2 extends React.Component {
@@ -17,18 +17,18 @@ class House2 extends React.Component {
                 </div>
                 <h1 className="house-header"> Model Home 2 </h1>
                 <div className="detail-holder">
-                <div className="detail-row">
-                        <p className="detail-header"> Bedrooms </p><p className="details"> 3 </p>
+                    <div className="detail-row">
+                        <p className="detail-header"> Bedrooms </p> <p className="details"> 3 </p>
                     </div>
                     <div className="detail-row">
-                        <p className="detail-header"> Bathrooms </p><p className="details"> 2 </p>
-                    </div>                    
-                    <div className="detail-row">
-                        <p className="detail-header"> Living Area </p><p className="details"> 1,715 sqft </p>
+                        <p className="detail-header"> Bathrooms </p> <p className="details"> 2 </p>
                     </div>
                     <div className="detail-row">
-                        <p className="detail-header"> Garage </p><p className="details">  2 Car </p>
-                    </div>    
+                        <p className="detail-header"> Living Area </p><p className="details"> 1,650 sqft </p> 
+                    </div>
+                    <div className="detail-row">
+                        <p className="detail-header"> Garage </p><p className="details"> 2 Car </p>
+                    </div>                                                            
                 </div>
             </div>
         )
@@ -36,3 +36,5 @@ class House2 extends React.Component {
 }
 
 export default House2;
+
+//https://www.nelsondesigngroup.com/content/house-plan-1341b-mariah-ii

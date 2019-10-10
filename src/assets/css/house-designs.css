@@ -26,9 +26,11 @@
   display: flex;
   flex-flow: row wrap;
   height: auto;
-  width: auto;
   justify-content: space-evenly;
   justify-items: space-evenly;
+  width: 90%;
+  min-width: 300px;
+  margin: auto;
 }
 
 .house-container {
