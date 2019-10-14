@@ -26,18 +26,16 @@
     display: flex;
     flex-flow: row wrap;
     height: auto;
-    justify-content: flex-start;
-    justify-items: flex-start;
+    justify-content: space-evenly;
+    justify-items: space-evenly;
     align-content: flex-start;
     align-items: flex-start;
     width: auto;
-    max-width: 1200px;
-    min-width: 300px;
     margin: auto;
 }
 
 .house-container {
-    margin: 30px auto;
+    margin: 30px 20px;
     width: auto;
     height: auto;
     max-width: 95%;

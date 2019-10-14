@@ -9,13 +9,13 @@ class Contact extends React.Component {
                 <p className="contact-name"> Charlie Whitfield </p>
                 <p className="contact-par"> 
                     <a className="contact-link" href="tel:6628091975"> 
-                        <i class="fas fa-phone"></i> 
+                        <i className="fas fa-phone"></i> 
                         (662) 809-1975 
                     </a> 
                 </p>
                 <p className="contact-par"> 
                     <a href="mailto:charlie@bordenestates.com" className="contact-link"> 
-                        <i class="fas fa-envelope"></i>
+                        <i className="fas fa-envelope"></i>
                         charlie@bordenestates.com 
                     </a> 
                 </p>
