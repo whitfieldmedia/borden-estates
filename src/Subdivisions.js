@@ -19,6 +19,9 @@ class Subdivisions extends React.Component {
     render() {
         return (
             <div id="sub-page">
+                <div className="video-container">
+                    <iframe title="Borden Estates" src="https://player.vimeo.com/video/365612781" width="640" height="360" frameBorder="0" allow="autoplay; fullscreen" allowFullScreen></iframe>
+                </div>
                 <h1 className="sub-header"> Available Lots </h1>
                 <div className="sub-header-underline"></div>
                 <h2 className="sub-header2"> Properties are located south of Perry Rd. on Highway 51 in Grenada, Ms. </h2>

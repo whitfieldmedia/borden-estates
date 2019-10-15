@@ -4,7 +4,15 @@
     padding: 50px 0 0 0;
     border-top: 3px solid $red;
 }
-
+.video-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 50px auto;
+    padding-bottom: 50px;
+}
 .land-img {
     width: 100%;
     height: auto;
